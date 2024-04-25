@@ -36,3 +36,22 @@ section.hero{
         color:$pure;
     }
 }
+
+.btn-primary{
+    background: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary-hover;
+    }
+}
+section.cart{
+    background: $secondary;
+    .amount{
+        color: $primary;
+    }
+}
+
+section.login , section.register{
+   min-height: 86vh;
+   background: $secondary;
+}
